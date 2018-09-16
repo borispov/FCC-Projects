@@ -1,0 +1,90 @@
+body {
+  background-color: #1c1419;
+}
+
+.container {
+  text-align: center;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10% auto;
+  /* color: #fff; */
+  color: #e3e3e3;
+}
+
+.hide {
+  display: none;
+}
+
+input {
+  line-height: 15px;
+  height: 25px;
+  width: 160px;
+  border-radius: 6px;
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+span#units {
+  cursor: pointer;
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.search {
+  background-color: #161616;
+  color: #fff;
+  border-color: gold;
+  border-radius: 6px;
+  width: 120px;
+  line-height: 15px;
+  padding: 6px;
+}
+
+#showC {
+  padding: 10px;
+  line-height: 34px;
+}
+
+#showC img {
+  height: 100px;
+  width: 100px;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
