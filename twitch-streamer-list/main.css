@@ -1,0 +1,157 @@
+body {
+  box-sizing: border-box;
+  background-color: #3a4a4d;
+}
+
+.wrapper {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5em;
+  overflow: hidden;
+}
+
+h1 {
+  color: #ff8347;
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar ul {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  list-style-type: none;
+  background-color: #30bafa;
+}
+
+.navbar ul li {
+  padding-left: 15px;
+  padding-right: 20px;
+  float: left;
+}
+
+.navbar ul li a {
+  position: relative;
+  display: inline-block;
+  color: #f9fbfb;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 5px 0 5px;
+  color: #fafafa;
+  text-decoration-color: #ff8347;
+}
+
+.navbar ul li a:hover {
+  font-weight: 600;
+  text-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Styling The List Of Streamers/ users */
+
+.user-list {
+  background-color: #30bafa;
+  border: 2px solid #fafafa;
+  font-family: 'Roboto', sans-serif;
+}
+
+.user-list ul {
+  margin: 0;
+  padding: 5px 2px 0 2px;
+}
+
+.user-list ul li {
+  list-style-type: none;
+  overflow: hidden;
+  border-bottom: 1px solid #f9fbfb;
+}
+
+.user-list ul li img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.user-list ul li a:link {
+  color: rgba(0, 0, 0, 0);
+}
+
+.user-list ul li a:visited {
+  color: rgba(0, 0, 0, 0);
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color: #4e4c54;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+}
+
+.onlineText {
+  float: right;
+  padding: 5px 5px 0 0;
+  text-transform: lowercase;
+  font-style: italic;
+  color: yellow;
+}
+
+.userSpan {
+  font-size: 1em;
+  font-weight: 700;
+  padding-left: 10px;
+  color: #3a4a4d;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 0.5px solid wheat;
+}
+
+.grid-item {
+  padding: 1em 2em;
+  width: 100%;
+}
+
+/* toggle classes for online channels spans */
+.online {
+  background-color: #ffffffaa;
+  /*   background-color: #FF834799; */
+}
+
+input {
+  margin-left: 4%;
+  margin-top: 10px;
+  background-color: #ff8347;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 0.5px solid #ff8347;
+  color: darkgreen;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-shadow: 0.1px 0.1px 0.1px;
+  font-size: 16px;
+  width: 88%;
+  outline: none;
+}
+
+input::placeholder {
+  text-shadow: 0.1px 0.1px 0.1px;
+  color: darkgreen;
+  font-style: italic;
+  text-transform: lowercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.remove {
+  float: right;
+  padding: 10px 5px 0 0;
+  cursor: pointer;
+  color: #4e4c54;
+  display: none;
+}
